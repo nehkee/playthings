@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weight Converter</title>
+  <link rel= "stylesheet" type= "text/css" href= "style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Weight Converter</h1>
+    </header>
+    <section>
+      <div id="input">
+        <select name="weightSelect" id="weightType">
+          <option>Choose weight type</option>
+          <option value="1">Kilograms</option>
+          <option value="2">Pounds</option>
+          <option value="3">Grams</option>
+          <option value="4">Ounces</option>
+        </select><br>
+        <input type="number" id="weightValue" value="0">
+      </div>
+      <div id="output">
+        <div class="card kilos" id="lbCard">
+          <h3>Pounds</h3>
+          <h4 id="toPounds"></h4>
+        </div>
+        <div class="card pounds" id="kgCard">
+          <h3>Kilos</h3>
+          <h4 id="toKilos"></h4>
+        </div>
+        <div class="card grams" id="gmCard">
+          <h3>Grams</h3>
+          <h4 id="toGrams"></h4>
+        </div>
+        <div class="card ounces" id="ozCard">
+          <h3>Ounces</h3>
+          <h4 id="toOunces"></h4>
+        </div>
+      </div>
+    </section>
+  </div>
+<script src=mm.js>
+</body>
+</html>
